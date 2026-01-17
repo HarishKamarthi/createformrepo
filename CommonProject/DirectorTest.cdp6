@@ -1,0 +1,54 @@
+[General]
+GlobalVarCount=0
+[Properties]
+Count=8
+Name1=DataMapName
+Value1=
+Name2=InputFormat
+Value2=Text
+Name3=ProjectName
+Value3=DirectorTest
+Name4=SampleSpoolFile
+Value4=C:\cfbh\Program Files\Create!form\CommonProject\DirectorTest.txt
+Name5=author
+Value5=RHenderson
+Name6=description
+Value6=Test Director Project
+Name7=lastsaved
+Value7=BHildebrand
+Name8=version
+Value8=6.1.0.5514
+[Root]
+NodeCount=1
+[Root-Node1]
+Type=Split
+Description=Split on Project Set
+Icon=
+SortBy=
+SortBy2=
+SortDesc=
+SortDesc2=
+SortMode=
+SortMode2=
+SplitRule=
+State=1
+TicketTemplate=
+NodeCount=1
+UserVarCount=0
+LookupCount=0
+[Root-Node1-Node1]
+Type=Send
+Append=N
+Copies=
+Description=Send to Folder
+DestType=DIR
+DocName=""Invoice_" + INVNO + ".txt""
+Icon=#SYS#_5453
+Location=""C:\\Createform\\DirectorTest""
+Priority=
+State=1
+TicketOnly=N
+TicketTemplate=Default
+NodeCount=0
+UserVarCount=0
+LookupCount=0

@@ -1,0 +1,23 @@
+[General]
+LastUsedNodeID=0
+Cf3Compatible=0
+GlobalVarCount=0
+[Properties]
+Count=7
+Name1=DataMapName
+Value1=
+Name2=InputFormat
+Value2=JDE PDF
+Name3=ProjectName
+Value3=R5642565N_Blank
+Name4=SampleSpoolFile
+Value4=D:\Bottomline Technologies, Inc\Create!form\WorkDir\WorkDirNA\R5642565N_NA000020_3478261_PDF.pdf
+Name5=author
+Value5=S_EMEA.CFADMIN
+Name6=lastsaved
+Value6=S_EMEA.CFADMIN
+Name7=version
+Value7=8.00.000.7329
+[Root]
+NodeID=0
+NodeCount=0

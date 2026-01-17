@@ -1,0 +1,115 @@
+[General]
+DateOrder=1
+SetConditionType=1
+SetTriggerSection=On Payment Terms GRP LH
+SetTriggerVariable=Page_Number
+Flags=1
+CodePage=1252
+DontMergeBrokenSections=0
+IgnoreSectCount=0
+Count=35
+[Section1]
+Name=
+DerivedVarRuleCount=0
+[Section2]
+Name=Additional Charges
+DerivedVarRuleCount=0
+[Section3]
+Name=Bank Accounts by Address Setup
+DerivedVarRuleCount=0
+[Section4]
+Name=Bank Details
+DerivedVarRuleCount=0
+[Section5]
+Name=Basic Serial Numbers - Print
+DerivedVarRuleCount=0
+[Section6]
+Name=Cust Field 1
+DerivedVarRuleCount=0
+[Section7]
+Name=Cust Field 2
+DerivedVarRuleCount=0
+[Section8]
+Name=CustomerPlateName
+DerivedVarRuleCount=0
+[Section9]
+Name=Delete Work File Section
+DerivedVarRuleCount=0
+[Section10]
+Name=Detail Line 1 Section
+DerivedVarRuleCount=0
+[Section11]
+Name=Discount
+DerivedVarRuleCount=0
+[Section12]
+Name=DisplayNoDataSelected
+DerivedVarRuleCount=0
+[Section13]
+Name=Dummy Page Throw Section
+DerivedVarRuleCount=0
+[Section14]
+Name=Global Variables Section
+DerivedVarRuleCount=0
+[Section15]
+Name=Invoice Draft Section
+DerivedVarRuleCount=0
+[Section16]
+Name=On Credit Card Acct. Number
+DerivedVarRuleCount=0
+[Section17]
+Name=On Customer Plate Name
+DerivedVarRuleCount=0
+[Section18]
+Name=On Description
+DerivedVarRuleCount=0
+[Section19]
+Name=On Line Type
+DerivedVarRuleCount=0
+[Section20]
+Name=On Payment Terms GRP LF
+DerivedVarRuleCount=0
+[Section21]
+Name=On Payment Terms GRP LH
+DerivedVarRuleCount=0
+[Section22]
+Name=Order Total Section
+DerivedVarRuleCount=0
+[Section23]
+Name=PageBreak
+DerivedVarRuleCount=0
+[Section24]
+Name=Phase 1 - Build Work File
+DerivedVarRuleCount=0
+[Section25]
+Name=Prepayment Transaction
+DerivedVarRuleCount=0
+[Section26]
+Name=Print Factor Value and Based On Cost
+DerivedVarRuleCount=0
+[Section27]
+Name=Print Item And Description
+DerivedVarRuleCount=0
+[Section28]
+Name=Print Order Number Information
+DerivedVarRuleCount=0
+[Section29]
+Name=Print Previously Invoiced Amount
+DerivedVarRuleCount=0
+[Section30]
+Name=Print Price Adjustments
+DerivedVarRuleCount=0
+[Section31]
+Name=Print Serial Number
+DerivedVarRuleCount=0
+[Section32]
+Name=Print Text
+DerivedVarRuleCount=0
+[Section33]
+Name=ShipmentNumbers
+DerivedVarRuleCount=0
+[Section34]
+Name=Tax Group Summary Heading
+DerivedVarRuleCount=0
+[Section35]
+Name=Tax Summary Lines Section
+DerivedVarRuleCount=0

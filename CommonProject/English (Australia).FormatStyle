@@ -1,0 +1,27 @@
+[Number]
+DecimalSymbol=.
+DecimalPlaces=2
+GroupingSymbol=,
+NegativeFormat=0
+NegativeRed=0
+[Currency]
+DecimalSymbol=.
+DecimalPlaces=2
+GroupingSymbol=,
+NegativeFormat=0
+NegativeRed=0
+CurrencySymbol=$
+SymbolRHS=0
+SymbolInside=1
+[Date]
+Order=0
+YearStyle=0
+MonthStyle=2
+DayStyle=0
+DOWStyle=2
+Separator1=" "
+Separator2=/
+Separator3=/
+LangID=English_Australia
+[Sort]
+LangID=English_Australia

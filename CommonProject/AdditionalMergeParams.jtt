@@ -1,0 +1,5 @@
+%cpBegin
+%cpParam:-distup#!UserPWD!#
+%cpParam:-distmp#!MasterPWD!#
+%cpParam:-distso#!Options!#
+%cpEnd

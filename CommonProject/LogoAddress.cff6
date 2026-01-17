@@ -1,0 +1,75 @@
+[Form]
+Name=
+CX=350
+CY=150
+ObjectCount=3
+[Form-Object1]
+Type=Text
+Description=
+DisplayCondition=
+X=103
+Y=13
+CX=216
+CY=115.084746
+Rotation=0
+Fixed=0
+Mirrored=0
+FixedSpacing=0
+LineSpacing=0.5
+HAlign=0
+VAlign=0
+FormatStyle=
+UnitCount=2
+Flags=0
+Text=New World Company
+FontSize=20
+FontItalic=1
+FontBold=1
+FontUnderline=0
+FontColorRed=0
+FontColorGreen=0
+FontColorBlue=0
+FontName=Helvetica
+FontKerning=0
+FormatAs=1
+Flags1=0
+Text1="Floor 100, 100 Main StreetG.P.O. Box 100, Globecity Globeland, 1000Telephone: (01) 9999 9999Fax : (01) 9999 8888"
+FontSize1=10
+FontItalic1=1
+FontBold1=1
+FontUnderline1=0
+FontColor1Red=0
+FontColor1Green=0
+FontColor1Blue=0
+FontName1=Helvetica
+FontKerning1=0
+FormatAs1=1
+[Form-Object2]
+Type=Line
+Description=
+DisplayCondition=
+X=104
+Y=42.084746
+CX=216
+CY=0
+Rotation=0
+Fixed=0
+ColorRed=1
+ColorGreen=0.501961
+ColorBlue=0.752941
+Width=2
+Style=0
+Stretch=0
+Reverse=0
+[Form-Object3]
+Type=Subform
+Description=
+DisplayCondition=
+X=11
+Y=12
+CX=84
+CY=89
+Rotation=0
+Fixed=0
+Name=NewWorld
+Flags=16

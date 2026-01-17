@@ -1,0 +1,134 @@
+[General]
+DateOrder=1
+SetConditionType=3
+SetTriggerSection=
+SetTriggerVariable=
+Flags=1
+CodePage=1252
+DontMergeBrokenSections=0
+UseInputNumberCopies=0
+IgnoreSectCount=9
+IgnoreSect1=Cust Field 1
+IgnoreSect2=Cust Field 2
+IgnoreSect3=On Credit Card Acct. Number
+IgnoreSect4=On Customer Plate Name
+IgnoreSect5=On Description
+IgnoreSect6=On Line Type
+IgnoreSect7=On Payment Terms GRP LF
+IgnoreSect8=On Payment Terms GRP LH
+IgnoreSect9=On Tracking Number
+Count=38
+[Section1]
+Name=Additional Charges
+DerivedVarRuleCount=0
+[Section2]
+Name=Bank Accounts by Address Setup
+DerivedVarRuleCount=0
+[Section3]
+Name=Bank Details
+DerivedVarRuleCount=0
+[Section4]
+Name=Basic Serial Numbers - Print
+DerivedVarRuleCount=0
+[Section5]
+Name=CopyGSTInvoice
+DerivedVarRuleCount=0
+[Section6]
+Name=Cust Field 1
+DerivedVarRuleCount=0
+[Section7]
+Name=Cust Field 2
+DerivedVarRuleCount=0
+[Section8]
+Name=CustomerPlateName
+DerivedVarRuleCount=0
+[Section9]
+Name=Delete Work File Section
+DerivedVarRuleCount=0
+[Section10]
+Name=Detail Line 1 Section
+DerivedVarRuleCount=0
+[Section11]
+Name=Discount
+DerivedVarRuleCount=0
+[Section12]
+Name=DisplayNoDataSelected
+DerivedVarRuleCount=0
+[Section13]
+Name=Dummy Page Throw Section
+DerivedVarRuleCount=0
+[Section14]
+Name=Global Variables Section
+DerivedVarRuleCount=0
+[Section15]
+Name=Invoice Draft Section
+DerivedVarRuleCount=0
+[Section16]
+Name=On Credit Card Acct. Number
+DerivedVarRuleCount=0
+[Section17]
+Name=On Customer Plate Name
+DerivedVarRuleCount=0
+[Section18]
+Name=On Description
+DerivedVarRuleCount=0
+[Section19]
+Name=On Line Type
+DerivedVarRuleCount=0
+[Section20]
+Name=On Payment Terms GRP LF
+DerivedVarRuleCount=0
+[Section21]
+Name=On Payment Terms GRP LH
+DerivedVarRuleCount=0
+[Section22]
+Name=On Tracking Number
+DerivedVarRuleCount=0
+[Section23]
+Name=Order Total Section
+DerivedVarRuleCount=0
+[Section24]
+Name=PageBreak
+DerivedVarRuleCount=0
+[Section25]
+Name=Phase 1 - Build Work File
+DerivedVarRuleCount=0
+[Section26]
+Name=Prepayment Transaction
+DerivedVarRuleCount=0
+[Section27]
+Name=Print Error Message
+DerivedVarRuleCount=0
+[Section28]
+Name=Print Factor Value and Based On Cost
+DerivedVarRuleCount=0
+[Section29]
+Name=Print Item And Description
+DerivedVarRuleCount=0
+[Section30]
+Name=Print Order Number Information
+DerivedVarRuleCount=0
+[Section31]
+Name=Print Previously Invoiced Amount
+DerivedVarRuleCount=0
+[Section32]
+Name=Print Price Adjustments
+DerivedVarRuleCount=0
+[Section33]
+Name=Print Serial Number
+DerivedVarRuleCount=0
+[Section34]
+Name=Print Text
+DerivedVarRuleCount=0
+[Section35]
+Name=ShipmentNumbers
+DerivedVarRuleCount=0
+[Section36]
+Name=Tax Group Summary Heading
+DerivedVarRuleCount=0
+[Section37]
+Name=Tax Summary Lines Section
+DerivedVarRuleCount=0
+[Section38]
+Name=Tracking Details
+DerivedVarRuleCount=0
