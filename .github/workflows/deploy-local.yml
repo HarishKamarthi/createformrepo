@@ -1,0 +1,26 @@
+name: Deploy main to local folder
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, windows]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Copy repo to deployment folder
+        shell: powershell
+        run: |
+          $source = "$env:GITHUB_WORKSPACE"
+          $dest   = "C:\BottomLine Technologies, Inc\Create!form"
+
+          if (!(Test-Path $dest)) { New-Item -ItemType Directory -Path $dest | Out-Null }
+
+          # Mirror files, but exclude git + workflow metadata
+          robocopy $source $dest /MIR /R:2 /W:2 /XD ".git" ".github" /XF ".gitignore"
+          # Robocopy exit codes: 0-7 are success; >=8 indicates failure
+          if ($LASTEXITCODE -ge 8) { exit $LASTEXITCODE }
