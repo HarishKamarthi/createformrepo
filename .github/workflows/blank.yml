@@ -1,0 +1,37 @@
+name: Deploy changed files only
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, windows]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy only changed files
+        shell: powershell
+        run: |
+          $source = "$env:GITHUB_WORKSPACE"
+          $dest   = "C:\BottomLine Technologies, Inc\Create!form"
+
+          if (!(Test-Path $dest)) {
+            New-Item -ItemType Directory -Path $dest | Out-Null
+          }
+
+          # Copy ONLY new/changed files (no deletions)
+          robocopy $source $dest /E /XO /R:2 /W:2 `
+            /XD ".git" ".github" `
+            /XF ".gitignore"
+
+          # Robocopy exit codes:
+          # 0 = no files copied
+          # 1 = files copied successfully
+          # 2–7 = acceptable
+          # >=8 = failure
+          if ($LASTEXITCODE -ge 8) { exit $LASTEXITCODE }
+
