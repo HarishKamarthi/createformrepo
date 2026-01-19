@@ -1,0 +1,37 @@
+name: Incremental deploy from main (no deletion)
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, windows]
+
+    steps:
+      # This guarantees ONLY main branch content is deployed
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Incremental deploy (no deletion)
+        shell: powershell
+        run: |
+          $source = "$env:GITHUB_WORKSPACE"
+          $dest   = "C:\BottomLine Technologies, Inc\Create!form"
+
+          if (!(Test-Path $dest)) {
+            New-Item -ItemType Directory -Path $dest | Out-Null
+          }
+
+          # Copy ONLY new/changed files (no deletes)
+          robocopy $source $dest /E /XO /R:2 /W:2 `
+            /XD ".git" ".github" `
+            /XF ".gitignore"
+
+          # Robocopy success handling
+          $rc = $LASTEXITCODE
+          if ($rc -ge 8) { exit $rc } else { exit 0 }
